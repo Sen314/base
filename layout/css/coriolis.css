@@ -1,0 +1,167 @@
+@import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+/* 
+    CSS de l'application TOTAL
+    Created on : 11 juil. 2014, 14:09:37
+    Author     : Maxime Cazé <maximecaze@coriolis.fr>
+*/
+.left-side {
+  top: 60px;
+}
+body > .header .navbar,
+body > .header .logo {
+    height: 60px;
+}
+.navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skin-blue .logo {
+    background-color: #FFFFFF;
+}
+.skin-blue .logo:hover {
+    background: #FFFFFF;
+}
+body > .header .logo img {
+    height: 60px;
+}
+#login-box .header {
+    background: #FFFFFF;
+}
+#login-box .header .logo {
+    max-width: 320px;
+}
+.right-side > .content-header {
+    margin-bottom: 10px;
+}
+
+/**
+ * Sidebar
+ */
+.skin-blue .sidebar {
+  border-bottom: 0;
+}
+.filters-sidebar {
+    padding: 10px;
+}
+#btn-filter {
+    margin-top: 15px;
+}
+
+.sidebar-collapse {
+    padding: 10px;
+}
+ul.fancytree-container {
+    border: 0;
+    background-color: inherit;
+}
+ul.fancytree-container li {
+    border-bottom: 0;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #EDEDED;
+  color: #f9f9f9;
+}
+/*Drodown in navbars*/
+.skin-blue .navbar .dropdown-menu > li > a {
+  color: #444444;
+}
+.navbar-nav > .user-menu > .dropdown-menu {
+  width: auto;
+}
+
+/**
+ * Reporting
+ */
+#reporting {
+    font-size: 12px;
+}
+#reporting tr.header td {
+    background-color: #001f3f;
+    color: #FFFFFF;
+}
+#reporting tr td {    
+    text-align: center;
+}
+#reporting tr td.grouped {    
+    background-color: lemonchiffon;
+    color: #333333;
+}
+#reporting tr td.entry {
+    max-width: 100px;
+    text-align: right;
+}
+#reporting tr.item-level-1 {
+    background-color: red;
+    color: #FFFFFF;
+}
+#reporting tr.item-level-2 {
+    background-color: lightblue;
+}
+#reporting tr.grey {
+    background-color: #cccccc;
+}
+#reporting tr.yellow {
+    background-color: #f39c12;
+}
+
+/**
+ * Fix datepicker
+ */
+#ui-datepicker-div { 
+    z-index: 10 !important;
+}
+
+/**
+ * Formulaire de webcallback
+ */
+#webcallback {
+    background-color: #FFFFFF;    
+    font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+}
+#webcallback p {
+    font-size: 13px;
+}
+#webcallback h1 {
+    font-size: 1.8em;
+    color: #007BC0;
+}
+#webcallback h2 {
+    font-size: 1.4em;
+    color: #007BC0;
+}
+#webcallback .form-control {
+    font-size: 13px;
+    padding: 3px 6px;
+    height: inherit;
+}
+#webcallback .btn-primary, #webcallback .btn-primary:hover {
+    background-color: #007BC0;
+}
+
+#webcallback input#phone {
+    width: 100px;
+}
+#webcallback input#callback_datetime {
+    width: 120px;
+}
+#webcallback input#postal_code, #webcallback input#housing_area,
+#webcallback input#annual_gaz_amount, #webcallback input#annual_fuel_amount,
+#webcallback input#annual_propane_amount, #webcallback input#annual_elec_amount
+{
+    width: 50px;
+}
+
+#webcallback .btn-envoyer {
+    background: none;
+    border: 0;
+}
+#webcallback .btn-envoyer {
+    outline: 0;
+}
+
+#webcallback .form-control[readonly] {
+    cursor: auto;
+    background-color: inherit;
+}
